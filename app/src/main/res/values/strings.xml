@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LightsOut</string>
+    <string name="head_label">Lights Out Jacob Neal</string>
+    <string name="score_view">Score: 0</string>
 </resources>

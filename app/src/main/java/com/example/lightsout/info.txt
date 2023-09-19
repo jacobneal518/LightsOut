@@ -1,0 +1,8 @@
+Jacob Neal
+1. Code is found in recolor()
+2. cellState = new boolean[][]{{true, true, true}, {true, true, true}, {true, true, true}};
+
+           setContentView(R.layout.activity_main);
+           grid = findViewById(R.id.light_grid);
+
+3.

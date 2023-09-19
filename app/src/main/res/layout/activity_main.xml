@@ -10,7 +10,8 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/head_label"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,5 +50,26 @@
 
         <Button style="@style/LightButton" />
     </GridLayout>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="40dp"
+        android:text="Reset"
+        app:layout_constraintStart_toStartOf="@+id/light_grid"
+        app:layout_constraintTop_toBottomOf="@+id/light_grid" />
+
+    <TextView
+        android:id="@+id/scoreDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="12dp"
+        android:text="@string/score_view"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/resetButton"
+        app:layout_constraintTop_toBottomOf="@+id/light_grid" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
